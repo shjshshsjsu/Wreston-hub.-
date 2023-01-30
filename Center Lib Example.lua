@@ -32,11 +32,13 @@ local PlayerSection = PlayerTab:AddSection({
 
 })
 
-PlayerSection:TextLabel({
+PlayerSection:AddButton({
 
-	Name = "Coming Soon",	
+	Name = "Fly",
 
-        
+	Callback = function()
+
+      		print("button pressed")
 
   	end    
 
