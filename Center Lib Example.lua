@@ -43,6 +43,7 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
   	end    
 
 })
+PlayerSection:AddLabel("Gui Owner YT:me ozoneYT")
 
 --Player Tab End--
 
