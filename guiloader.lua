@@ -36,13 +36,13 @@ local PlayerSection = PlayerTab:AddSection({
 
 PlayerSection:AddTextbox({
 
-	Name = "Textbox",	Default = "default box input",
+	Name = "Speed",	Default = "Speed Value",
 
 	TextDisappear = true,
 
 	Callback = function(Value)
-
-		print(Value)
+game.Players.LocalPlayer.character.Humanoid.WalkSpeed = (Value)
+		
 
 	end	  
 
