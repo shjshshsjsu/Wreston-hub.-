@@ -209,7 +209,7 @@ SettingsSection:AddButton({
 --Settings End--
 --Kat Start--
 local KatSection = KatTab:AddSection({
-Name = "Kat",
+Name = "Kat"
 }) 
 KatSection:AddButton({
 
