@@ -34,6 +34,19 @@ local PlayerSection = PlayerTab:AddSection({
 
 
 
+PlayerSection:AddTextbox({
+
+	Name = "Textbox",	Default = "default box input",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end	  
+
+})
 	
 
  PlayerSection:AddButton({
