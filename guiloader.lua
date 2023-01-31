@@ -208,5 +208,13 @@ SettingsSection:AddButton({
 
 --Settings End--
 --Kat Start--
+local KatSection = KatTab:AddSection({
+Name = "Kat",
+}) 
+KatSection:AddButton({
+Name = "Aim Bot", 
 
+Callback = function() 
+
+end}) 
 OrionLib:Init() --UI Lib 
