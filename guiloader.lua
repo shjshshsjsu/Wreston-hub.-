@@ -212,10 +212,14 @@ local KatSection = KatTab:AddSection({
 Name = "Kat",
 }) 
 KatSection:AddButton({
+
 Name = "Aim Bot", 
 
 Callback = function() 
-https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/kat-aimbot.lualoadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/guiloader.lua", true))()loadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/guiloader.lua", true))()loadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/Center%20Lib%20Example.lua", true))()
-end}) 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/kat-aimbot.lua", true))()
+end
+}) 
+
 --Kat End--
 OrionLib:Init() --UI Lib 
