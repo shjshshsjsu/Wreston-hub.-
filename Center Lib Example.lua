@@ -49,7 +49,7 @@ local PlayerSection = PlayerTab:AddSection({
  })
 
 
-PlayerSection:AddLabel("Gui Owner YT:me ozoneYT")
+PlayerSection:AddLabel("Fly Gui Owner YT:me ozoneYT")
 
 PlayerSection:AddButton({
 Name = "Esp" ,
@@ -58,7 +58,7 @@ Callback = function()
 
 local color = BrickColor.new(50,0,250)
 
-local transparency = .8
+local transparency = .4
 
 local Players = game:GetService("Players")
 
