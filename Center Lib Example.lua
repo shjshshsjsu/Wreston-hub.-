@@ -28,7 +28,9 @@ local PlayerTab = Window:MakeTab({
 
 local PlayerSection = PlayerTab:AddSection({
 
-	Name = "Player"
+	Name = "Player", 
+	}) 
+	
 
 PlayerSection:AddTextbox({
 
