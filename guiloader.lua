@@ -47,6 +47,19 @@ game.Players.LocalPlayer.character.Humanoid.WalkSpeed = (Value)
 	end	  
 
 })
+PlayerSection:AddTextbox({
+Name = "Jump Power", 
+
+Default = "16",
+
+TextDisappear = true,
+
+Callback = function(Value) 
+
+game.Players.LocalPlayer.character.Humanoid.JumpPower = (Value) 
+
+end
+}) 
 	
 
  PlayerSection:AddButton({
