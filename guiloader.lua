@@ -234,6 +234,16 @@ SettingsSection:AddButton({
 
 --Settings End--
 --Kat Start--
+local KatTab = Window:MakeTab({
+
+	Name = "Kat",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
 local KatSection = KatTab:AddSection({
 Name = "Kat"
 }) 
