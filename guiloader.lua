@@ -258,4 +258,41 @@ end
 }) 
 
 --Kat End--
+
+
+--RaiseAFloppa Start--
+
+local RaiseAFloppaTab = Window:MakeTab({
+
+    Name = "RaiseAFloppa",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+local RaiseAFloppaSection = RaiseAFloppaTab:AddSection({
+
+Name = "RaiseAFloppa"
+
+}) 
+
+RaiseAFloppa:AddButton({
+
+Name = "Auto Click", 
+
+Callback = function() 
+
+fireclickdetector(game:GetService("Workspace").Floppa.ClickDetector)
+
+                           fireclickdetector(game:GetService("Workspace")["Baby Floppa"].ClickDetector)
+
+end
+
+}) 
+
+--RaiseAFloppa End--
+
+```
 OrionLib:Init() --UI Lib 
