@@ -207,5 +207,9 @@ SettingsSection:AddButton({
 })
 
 --Settings End--
+--Kat Start--
+local Section = Tab:AddSection({
 
+	Name = "Kat"})
+--Kat End--
 OrionLib:Init() --UI Lib 
