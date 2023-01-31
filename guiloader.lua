@@ -36,7 +36,7 @@ local PlayerSection = PlayerTab:AddSection({
 
 PlayerSection:AddTextbox({
 
-	Name = "Speed",	Default = "Speed Value",
+	Name = "Speed",	Default = "16",
 
 	TextDisappear = true,
 
