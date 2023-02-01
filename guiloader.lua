@@ -61,9 +61,9 @@ game.Players.LocalPlayer.character.Humanoid.JumpPower = (Value)
 end
 }) 
 	
-Tab:AddToggle({
+PlayerSection:AddToggle({
 
-	Name = "This is a toggle!",	Default = false,
+	Name = "Infinite Jump!",	Default = false,
 
 	Callback = function(Value)
 
