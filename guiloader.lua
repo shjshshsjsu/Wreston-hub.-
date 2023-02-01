@@ -61,6 +61,30 @@ game.Players.LocalPlayer.character.Humanoid.JumpPower = (Value)
 end
 }) 
 	
+Tab:AddToggle({
+
+	Name = "This is a toggle!",	Default = false,
+
+	Callback = function(Value)
+
+local InfiniteJumpEnabled = true
+
+game:GetService("UserInputService").JumpRequest:connect(function()
+
+	if InfiniteJumpEnabled then
+
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+
+	end
+
+end)
+
+	end    
+
+})
+		
+
+	
 
  PlayerSection:AddButton({
 
