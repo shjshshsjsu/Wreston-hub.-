@@ -219,6 +219,21 @@ local SettingsSection = SettingsTab:AddSection({
 	Name = "Settings"
 
 })
+SettingsSection:AddButton({
+
+	Name = "Rejoin Server",
+
+	Callback = function()
+
+        local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
+
+  	end    
+
+})
 
 SettingsSection:AddButton({
 
