@@ -63,7 +63,7 @@ end
 	
 PlayerSection:AddButton({
 
-	Name = "Infinite Jump!",	
+	Name = "Infinite Jump",	
 
 	Callback = function(Value)
 
