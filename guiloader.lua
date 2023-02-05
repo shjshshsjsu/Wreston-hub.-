@@ -1,7 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-loadstring(game:HttpGet(('loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source
-
+loadstring(game:HttpGet('') 
 OrionLib:MakeNotification({
 
 	Name = "Wreston Hub",
