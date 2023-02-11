@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/Bypass.lua') 
+
 OrionLib:MakeNotification({
 
 	Name = "Wreston Hub",
@@ -32,7 +32,23 @@ local PlayerSection = PlayerTab:AddSection({
 	Name = "Player", 
 	}) 
 	
+Tab:AddToggle({
 
+	Name = "Test", 
+			Default = true,
+
+	Callback = function(Value)
+
+		print(Value)
+
+	end    
+
+})
+
+		
+
+
+	
 
 
 PlayerSection:AddTextbox({
