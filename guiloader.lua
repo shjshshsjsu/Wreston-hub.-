@@ -31,24 +31,6 @@ local PlayerSection = PlayerTab:AddSection({
 
 	Name = "Player", 
 	}) 
-	
-Tab:AddToggle({
-
-	Name = "Test", 
-			Default = true,
-
-	Callback = function(Value)
-
-		print(Value)
-
-	end    
-
-})
-
-		
-
-
-	
 
 
 PlayerSection:AddTextbox({
