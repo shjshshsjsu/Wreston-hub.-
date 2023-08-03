@@ -137,29 +137,7 @@ SettingsSection:AddButton({
 })
 
 --Settings End--
---Kat Start--
-local KatTab = Window:MakeTab({
 
-	Name = "Kat",
-
-	Icon = "rbxassetid://4483345998",
-
-	PremiumOnly = false
-
-})
-
-local KatSection = KatTab:AddSection({
-Name = "Kat"
-}) 
-KatSection:AddButton({
-
-Name = "Aim Bot", 
-
-Callback = function() 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shjshshsjsu/Wreston-hub.-/main/kat-aimbot.lua", true))()
-end
-}) 
 
 --Kat End--
 
